@@ -2,12 +2,9 @@ import './Footer.css'
 
 const Footer = () => (
   <footer className='footer'>
-    <a
-      href='https://github.com/rjshkhr/cleanfolio'
-      className='link footer__link'
-    >
-      Created By Raj Shekhar
-    </a>
+    <p className='footer__quote'>
+      世界上只有一种英雄主义，那就是在认清生活的真相后依然热爱生活。  ————罗曼·罗兰
+    </p>
   </footer>
 )
 

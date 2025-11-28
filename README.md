@@ -1,67 +1,42 @@
-# Cleanfolio
+# Wang Zhenyang - Personal Portfolio
 
-Cleanfolio is a portfolio template built with React. However, if you prefer a template built with HTML, CSS, and JavaScript, you can check out [Cleanfolio Minimal](https://github.com/rjshkhr/cleanfolio-minimal).
+个人作品集网站，基于 React 开发。
 
-## Preview
+## 关于
 
-[![Imgur](https://imgur.com/FwDMNEM.gif)](https://rjshkhr.github.io/cleanfolio)
+这是 Wang Zhenyang 的个人作品集网站，展示个人项目、技能和联系方式。
 
-[Live Demo](https://rjshkhr.github.io/cleanfolio)
+## 本地开发
 
-## Instructions
-
-### Setup
+### 安装依赖
 
 ```shell
-git clone https://github.com/rjshkhr/cleanfolio
-cd cleanfolio
+yarn install
 ```
 
-If you use [nvm](https://github.com/nvm-sh/nvm) or [fnm](https://github.com/Schniz/fnm), execute:
+### 启动开发服务器
 
 ```shell
-nvm install
-nvm use
-```
-
-Or:
-
-```shell
-fnm install
-fnm use
-```
-
-To install and launch the project, run these commands:
-
-```shell
-yarn
 yarn start
 ```
 
-### How to Use
+项目将在 [http://localhost:3000](http://localhost:3000) 运行。
 
-- Open the `public/index.html` file and replace:
-
-`<title>John Smith</title>` with `<title>Your Name</title>`.
-
-- Open the `src/portfolio.js` file and make the necessary changes.
-
-### Deployment
-
-- In the `package.json` file, update:
-
-`"homepage": "https://rjshkhr.github.io/cleanfolio"`
-
-to `"homepage": "https://yourusername.github.io"`.
-
-- Push the changes to your repository.
-
-- To build and deploy, run the following commands:
+### 构建项目
 
 ```shell
 yarn build
-yarn deploy
 ```
+
+## 部署
+
+详细的部署说明请查看 [部署指南](DEPLOYMENT.md)
+
+## 技术栈
+
+- React
+- Material-UI
+- CSS3
 
 ## License
 

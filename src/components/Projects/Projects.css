@@ -1,7 +1,36 @@
+.projects__scroll-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  /* 隐藏滚动条但保持滚动功能 */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  padding-bottom: 1em;
+}
+
+.projects__scroll-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
 .projects__grid {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-  grid-gap: 2em;
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  padding: 0 1em;
+  min-width: max-content;
+  align-items: stretch;
+}
+
+.projects__grid > * {
+  flex: 0 0 auto;
+  width: 350px;
+  max-width: 350px;
+}
+
+@media (max-width: 600px) {
+  .projects__grid > * {
+    width: 280px;
+    max-width: 280px;
+  }
 }
