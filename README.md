@@ -28,9 +28,9 @@ yarn start
 yarn build
 ```
 
-## 部署
+## Deployment
 
-详细的部署说明请查看 [部署指南](DEPLOYMENT.md)
+Visit: https://wwwangzhenyang421.github.io/wwwselfweb
 
 ## 技术栈
 
