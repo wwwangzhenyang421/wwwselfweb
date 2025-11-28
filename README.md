@@ -30,7 +30,12 @@ yarn build
 
 ## Deployment
 
-Visit: https://wwwangzhenyang421.github.io/wwwselfweb
+Site is deployed at: https://wwwangzhenyang421.github.io/wwwselfweb
+
+To deploy:
+1. Build: `npm run build`
+2. Deploy: `npm run deploy`
+3. Enable GitHub Pages in repository settings (gh-pages branch)
 
 ## 技术栈
 
