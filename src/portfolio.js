@@ -70,6 +70,15 @@ const projects = [
     livePreview: 'https://github.com/wwwangzhenyang421',
     image: 'pro5.png',
   },
+  {
+    name: '食堂网上订餐系统',
+    description:
+      '基于Java Swing开发的校园食堂订餐管理系统，支持学生、教师、食堂员工和管理员多角色权限。提供菜单查询、在线下单、订单管理、菜品维护等功能，采用IO流进行数据持久化，为校内师生提供便捷的食堂订餐服务，减少排队等待时间。',
+    stack: ['Java', 'Swing', 'IO流', '面向对象设计'],
+    sourceCode: 'https://github.com/wwwangzhenyang421',
+    livePreview: 'https://github.com/wwwangzhenyang421',
+    image: 'pro6.png',
+  },
 ]
 
 const skills = [
