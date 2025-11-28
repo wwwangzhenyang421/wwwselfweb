@@ -30,8 +30,8 @@ const projects = [
     description:
       '基于前端技术开发的五子棋游戏，实现人机对弈功能。采用贪心算法，提供流畅的游戏体验和直观的界面交互。',
     stack: ['JavaScript', 'HTML5', 'CSS3', 'Canvas', 'React.js'],
-    sourceCode: 'https://github.com/wwwangzhenyang421',
-    livePreview: 'https://github.com/wwwangzhenyang421',
+    sourceCode: 'https://github.com/wwwangzhenyang421/gomoku',
+    livePreview: 'https://wwwangzhenyang421.github.io/gomoku/',
     image: 'pro1.png',
   },
   {
@@ -39,8 +39,8 @@ const projects = [
     description:
       '经典塔防游戏的基础版本，包含豌豆射手、向日葵、坚果等植物，支持水池和草地两种场景，采用5×9格子布局，实现完整的游戏机制和动画效果。',
     stack: ['JavaScript', 'HTML5', 'CSS3', 'Canvas', 'React.js'],
-    sourceCode: 'https://github.com/wwwangzhenyang421',
-    livePreview: 'https://github.com/wwwangzhenyang421',
+    sourceCode: 'https://github.com/wwwangzhenyang421/plants-vs-zombies',
+    livePreview: 'https://wwwangzhenyang421.github.io/plants-vs-zombies/',
     image: 'pro2.png',
   },
   {
