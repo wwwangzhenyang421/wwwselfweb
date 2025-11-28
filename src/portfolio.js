@@ -49,7 +49,7 @@ const projects = [
       '基于Java Swing开发的校园食堂订餐管理系统，通过bat封装，支持学生、教师、食堂员工和管理员多角色权限。提供菜单查询、在线下单、订单管理、菜品维护等功能。',
     stack: ['Java', 'Swing', 'IO流', '面向对象设计'],
     sourceCode: 'https://github.com/wwwangzhenyang421/OrderingOnline',
-    livePreview: 'https://github.com/wwwangzhenyang421/OrderingOnline/README.md',
+    livePreview: 'https://github.com/wwwangzhenyang421/OrderingOnline/blob/main/README.md',
     image: 'pro3.png',
   },
   {
