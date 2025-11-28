@@ -68,7 +68,7 @@ const projects = [
     stack: ['Java', 'Spring Boot', 'Spring Cloud Alibaba', 'MySQL', 'Redis', 'Elasticsearch', 'WebSocket', '微信小程序 SDK', 'MyBatis-Plus'],
     sourceCode: 'https://github.com/wwwangzhenyang421',
     livePreview: 'https://github.com/wwwangzhenyang421',
-    image: 'pro3.png',
+    image: 'pro5.png',
   },
 ]
 
