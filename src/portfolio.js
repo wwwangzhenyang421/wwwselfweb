@@ -44,13 +44,22 @@ const projects = [
     image: 'pro2.png',
   },
   {
+    name: '食堂网上订餐系统',
+    description:
+      '基于Java Swing开发的校园食堂订餐管理系统，通过bat封装，支持学生、教师、食堂员工和管理员多角色权限。提供菜单查询、在线下单、订单管理、菜品维护等功能。',
+    stack: ['Java', 'Swing', 'IO流', '面向对象设计'],
+    sourceCode: 'https://github.com/wwwangzhenyang421/OrderingOnline',
+    livePreview: 'https://github.com/wwwangzhenyang421/OrderingOnline/README.md',
+    image: 'pro3.png',
+  },
+  {
     name: 'SmartNote：笔记管理分析智能助手',
     description:
       '基于Flask的AI笔记增强应用，通过RAG和双智能体架构实现笔记自动结构化，支持PDF/文本上传、自然语言查询，生成思维导图式结构化笔记。',
     stack: ['Python', 'Flask', 'SQLAlchemy', 'SQLite', 'LangChain', 'HuggingFace Transformers', 'PyPDF2', 'WebSockets', 'RAG'],
     sourceCode: 'https://github.com/wwwangzhenyang421',
     livePreview: 'https://github.com/wwwangzhenyang421',
-    image: 'pro3.png',
+    image: 'pro4.png',
   },
   {
     name: '12306 铁路购票系统',
@@ -59,7 +68,7 @@ const projects = [
     stack: ['Java', 'SpringBoot', 'SpringCloudAlibaba', 'MySQL', 'Redis', 'RocketMQ', 'ShardingSphere', 'Sentinel'],
     sourceCode: 'https://github.com/wwwangzhenyang421',
     livePreview: 'https://github.com/wwwangzhenyang421',
-    image: 'pro4.png',
+    image: 'pro5.png',
   },
   {
     name: '求职中介微服务平台',
@@ -68,17 +77,8 @@ const projects = [
     stack: ['Java', 'Spring Boot', 'Spring Cloud Alibaba', 'MySQL', 'Redis', 'Elasticsearch', 'WebSocket', '微信小程序 SDK', 'MyBatis-Plus'],
     sourceCode: 'https://github.com/wwwangzhenyang421',
     livePreview: 'https://github.com/wwwangzhenyang421',
-    image: 'pro5.png',
-  },
-  {
-    name: '食堂网上订餐系统',
-    description:
-      '基于Java Swing开发的校园食堂订餐管理系统，支持学生、教师、食堂员工和管理员多角色权限。提供菜单查询、在线下单、订单管理、菜品维护等功能，采用IO流进行数据持久化，为校内师生提供便捷的食堂订餐服务，减少排队等待时间。',
-    stack: ['Java', 'Swing', 'IO流', '面向对象设计'],
-    sourceCode: 'https://github.com/wwwangzhenyang421',
-    livePreview: 'https://github.com/wwwangzhenyang421',
     image: 'pro6.png',
-  },
+  }
 ]
 
 const skills = [
